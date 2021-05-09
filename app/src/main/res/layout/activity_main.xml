@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversor de Moedas"
+        android:textSize="30sp"
+        android:gravity="center" />
+
+
+    <EditText
+        android:id="@+id/txt_valorEuros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Insira um valor em Euros"
+        android:inputType="numberDecimal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/txt_kwanza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KWANZA"
+            android:textColor="#673AB7"
+            app:backgroundTint="#989696" />
+
+        <Button
+            android:id="@+id/txt_real"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REAL"
+            android:textColor="#673AB7"
+            app:backgroundTint="#989696" />
+
+        <Button
+            android:id="@+id/txt_dolar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DÓLAR"
+            android:textColor="#673AB7"
+            app:backgroundTint="#989696" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Desenvolvido por Janeth Quila"
+        android:textSize="24sp" />
+
+</LinearLayout>
